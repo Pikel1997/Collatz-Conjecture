@@ -26,8 +26,8 @@ def result():
 
 # plotting
 plt.title("Collatz")
-plt.xlabel("X axis")
-plt.ylabel("Y axis")
+plt.xlabel("Iterations/Steps")
+plt.ylabel("Numbers")
 result()
 plt.grid()
 plt.show()
