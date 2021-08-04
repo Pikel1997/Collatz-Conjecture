@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# main function, just applying 3n+1 to odd number and dividing the even numbers by 2. 
 def collatz(n):
     global yvalues, xvalues
     yvalues = []
@@ -15,7 +16,8 @@ def collatz(n):
         else:
             n = n // 2
     print(yvalues, '\n', "Iterations = ", count, '\n')
-
+    
+# running the test for the first thousand numbers and plotting each sequence
 def result():
     for i in range(1, 1001):
         print("Sequence= ", end="")
