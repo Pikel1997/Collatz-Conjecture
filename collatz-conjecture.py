@@ -23,7 +23,7 @@ def result():
         print("Sequence= ", end="")
         collatz(i)
         plt.plot(np.array(xvalues), np.array(yvalues), color='black', marker='o', markerfacecolor='yellow', markersize=3)
-
+        plt.annotate("Max Value", (np.array(xvalues), np.max(np.array(yvalues))))
 
 # plotting
 plt.title("Collatz")
