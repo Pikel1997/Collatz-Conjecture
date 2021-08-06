@@ -24,6 +24,7 @@ def result():
         collatz(i)
         plt.plot(np.array(xvalues), np.array(yvalues), color='black', marker='o', markerfacecolor='yellow', markersize=3)
 
+
 # plotting
 plt.title("Collatz")
 plt.xlabel("Iterations/Steps")
