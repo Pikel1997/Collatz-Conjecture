@@ -22,9 +22,7 @@ def result():
     for i in range(1, 1001):
         print("Sequence= ", end="")
         collatz(i)
-        x = np.array(xvalues)
-        y = np.array(yvalues)
-        plt.plot(x, y, color='black', marker='.', markerfacecolor='yellow')
+        plt.plot(np.array(xvalues), np.array(yvalues), color='black', marker='o', markerfacecolor='yellow', markersize=3)
 
 # plotting
 plt.title("Collatz")
