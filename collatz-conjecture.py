@@ -17,7 +17,7 @@ def collatz(n):
             n = n // 2
     print(yvalues, '\n', "Iterations = ", count, '\n')
     
-# running the test for the first thousand numbers and plotting each sequence
+# running the test for the first thousand numbers and plotting each sequence.
 def result():
     for i in range(1, 1001):
         print("Sequence= ", end="")
