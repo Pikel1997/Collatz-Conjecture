@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # main function, just applying 3n+1 to odd numbers and dividing the even numbers by 2. 
 def collatz(n):
     global yvalues, xvalues
