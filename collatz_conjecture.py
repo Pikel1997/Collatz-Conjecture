@@ -6,7 +6,7 @@ layout = [
     [sg.Text('Enter Value of n-', size=(15, 1)), sg.InputText(size=(5, 1))],
     [sg.Button('Go'), sg.Button('Exit')]
 ]
-window = sg.Window('Demo', layout)
+window = sg.Window('Collatz', layout)
 
 # main function, just applying 3n+1 to odd numbers and dividing the even numbers by 2. 
 def collatz(n):
